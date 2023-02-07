@@ -8,7 +8,7 @@ const Navbar = (props) => {
         <nav className={`navbar navbar-expand-lg text-bg-${theme} navbar-${theme} shadow-sm`}>
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
-                    <span className='gradient'>TextTool</span>
+                    <span className='gradient fw-1 fs-3'>TextTool</span>
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
